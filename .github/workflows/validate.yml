@@ -12,7 +12,7 @@ env:
 jobs:
   linuxNode16:
     name: "[Linux] Node.js v16: Lint, Formatting, Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -55,7 +55,7 @@ jobs:
 
   windowsNode16:
     name: "[Windows] Node.js v16: Unit tests"
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -87,7 +87,7 @@ jobs:
 
   linuxNode17:
     name: "[Linux] Node.js v17: Unit tests on npm package"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -130,7 +130,7 @@ jobs:
 
   linuxNode14:
     name: "[Linux] Node.js v14: Unit tests with coverage"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -164,7 +164,7 @@ jobs:
 
   linuxNode12:
     name: "[Linux] Node.js v12: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -196,7 +196,7 @@ jobs:
 
   linuxNode10:
     name: "[Linux] Node.js v10: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -228,7 +228,7 @@ jobs:
 
   linuxNode8:
     name: "[Linux] Node.js v8: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -260,7 +260,7 @@ jobs:
 
   linuxNode6:
     name: "[Linux] Node.js v6: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -292,7 +292,7 @@ jobs:
 
   linuxNode4:
     name: "[Linux] Node.js v4: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -324,7 +324,7 @@ jobs:
 
   linuxNode012:
     name: "[Linux] Node.js v0.12: Unit tests"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
